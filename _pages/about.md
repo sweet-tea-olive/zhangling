@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Zhang Ling"
+excerpt: #"Senior Researcher at Microsoft Research Asia"
 author_profile: true
 redirect_from: 
   - /about/
