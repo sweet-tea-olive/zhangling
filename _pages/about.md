@@ -94,6 +94,8 @@ classes: wide
 I am currently a Senior Researcher at Microsoft Research Asia. I received my PhD in 2024 from the University of Washington, advised by [Prof. Baosen Zhang](https://zhangbaosen.github.io/).
 My research focuses on learning-based optimization for power system operations under high renewable penetration and uncertainty.  I develop methods that guarantee hard constraint satisfaction by embedding optimization structures directly into the learning process.  At MSRA, I also explore applying LLMs to large-scale combinatorial optimization (e.g., logistics) and improving their alignment with downstream tasks.
 
+My vision is to build reliable AI-driven decision-making for safety-critical systems. As hyperscale AI data centers become coupled with the grid, I am particularly interested in modeling these dynamic systems to develop robust, adaptive operation methods.
+
 ## Selected Publications
 
 ### Large Language Models & Combinatorial Optimization
@@ -111,7 +113,7 @@ My research focuses on learning-based optimization for power system operations u
 *   **An Efficient Learning‑based Solver for Two‑stage DC Optimal Power Flow with Feasibility Guarantees**  
     **L. Zhang**, D. Tabas, and B. Zhang.  
     *arXiv preprint: 2304.01409*, 2023.  
-    *Introduces a gauge mapping approach to solve two-stage stochastic LP with feasibility guarantees.*
+    *Embeds gauge mapping within neural solvers to provide feasibility guarantees for two-stage stochastic LP.*
 
 *   **An Iterative Approach to Improving Solution Quality for AC Optimal Power Flow Problems**  
     **L. Zhang** and B. Zhang.  
@@ -124,4 +126,4 @@ My research focuses on learning-based optimization for power system operations u
     *IEEE Transactions on Control of Networked Systems*, 2021.  
     *Leverages duality and KKT conditions to guarantee linear constraint satisfaction in neural solvers.*
 
-My vision is to build reliable AI-driven decision-making for safety-critical systems. As hyperscale AI data centers become coupled with the grid, I am particularly interested in modeling these dynamic systems to develop robust, adaptive operation methods.
+
