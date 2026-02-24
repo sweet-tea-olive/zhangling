@@ -7,44 +7,35 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ling Zhang"
-title_separator          : "-"
-name                     : &name "Ling Zhange"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+locale            : "en-US"
+site_theme        : "default" # options: "default", "air", "sunrise", "mint", "dirt", "contrast"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+title             : "Ling Zhang"
+title_separator   : "-"
+name              : "Ling Zhang"
+description       : 
+
+# IMPORTANT — Update this to your actual site after renaming repo
+url               : "https://zhangling24.github.io"
+baseurl           : "" 
+repository        : "zhangling24/zhangling24.github.io"
+
+
+# Site Author - Sidebar Profile
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  # name             : "Your Sidebar Name"
-  # pronouns         : # example: "she/her"  
-  # bio              : "Short biography for the left-hand sidebar"
-  # location         : "Earth"
-  # employer         : "Red Brick University"
-  # google scholar              : "https://scholar.google.com/citations?user=JzRpUcMAAAAJ"
-  email            : "zhangling@microsoft.com" 
+  avatar        : "profile.png"
+  name          : "Ling Zhang"
+  bio           : 
+  location      :
+  employer      :
+  uri           :
+  email         : "zhangling@microsoft.com"
 
-  # Academic websites
-  # academia         : # URL
-  # arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=JzRpUcMAAAAJ"
-  # inspire-hep      : # URL
-  # impactstory      : # URL
-  # orcid            : "https://orcid.org/yourorcidurl"
-  # semantic         : # URL
-  # ssrn             : # URL
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # researchgate     : # URL
-  # scopus           : # URL
-  # zotero           : # URL
+  # Academic links
+  googlescholar : "https://scholar.google.com/citations?user=JzRpUcMAAAAJ"
+  # orcid       :
+  # arxiv       :
+  # researchgate :
 
 
   # Repositories and software development
