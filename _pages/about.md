@@ -60,7 +60,7 @@ classes: wide
 
 <div style="display: flex; align-items: center; margin-bottom: 25px;">
   <!-- Profile Photo (100px) -->
-  <img src="/images/profile.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px; object-fit: cover; border: 1px solid #eee;">
+  <img src="/images/profile.jpg" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px; object-fit: cover; border: 1px solid #eee;">
   
   <!-- Text Container (Matched to 100px height) -->
   <div style="display: flex; flex-direction: column; justify-content: center; height: 100px; line-height: 1.2;">
