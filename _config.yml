@@ -11,7 +11,7 @@ locale            : "en-US"
 site_theme        : "default" # options: "default", "air", "sunrise", "mint", "dirt", "contrast"
 
 title             : "Ling Zhang"
-title_separator   : "-"
+title_separator   : #"-"
 name              :
 description       : 
 
@@ -215,15 +215,15 @@ collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -256,14 +256,14 @@ defaults:
   #     share: true
   #     comments: true
   # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comments: false
+  # - scope:
+  #     path: ""
+  #     type: publications
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: false
+  #     comments: false
   # _portfolio
   # - scope:
   #     path: ""
@@ -274,13 +274,13 @@ defaults:
   #     share: true
   #     comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: false
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: false
 
 
 # Sass/SCSS
