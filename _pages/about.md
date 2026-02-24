@@ -94,4 +94,34 @@ classes: wide
 I am currently a Senior Researcher at Microsoft Research Asia. I received my PhD in 2024 from the University of Washington, advised by [Prof. Baosen Zhang](https://zhangbaosen.github.io/).
 My research focuses on learning-based optimization for power system operations under high renewable penetration and uncertainty.  I develop methods that guarantee hard constraint satisfaction by embedding optimization structures directly into the learning process.  At MSRA, I also explore applying LLMs to large-scale combinatorial optimization (e.g., logistics) and improving their alignment with downstream tasks.
 
+## Selected Publications
+
+### Large Language Models & Combinatorial Optimization
+*   **Holdout-Loss-Based Data Selection for LLM Finetuning via In-Context Learning**  
+    **L. Zhang**, X. Yang, J. Yu, P. Cheonyoung, M. Lee, L. Song, and J. Bian.  
+    *International Conference on Learning Representations (ICLR)*, 2026. (To appear)  
+    *Explores principled data curation strategies for improving LLM alignment.*
+
+*   **HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges**  
+    X. Yang, **L. Zhang**, H. Qian, L. Song, and J. Bian.  
+    *arXiv preprint: 2506.15196*, 2025.  
+    *Uses LLMs to generate and evolve heuristic programs for large-scale combinatorial optimization.*
+
+### Learning-based Optimization for Power Systems
+*   **An Efficient Learning‑based Solver for Two‑stage DC Optimal Power Flow with Feasibility Guarantees**  
+    **L. Zhang**, D. Tabas, and B. Zhang.  
+    *arXiv preprint: 2304.01409*, 2023.  
+    *Introduces a gauge mapping approach to solve two-stage stochastic LP with feasibility guarantees.*
+
+*   **An Iterative Approach to Improving Solution Quality for AC Optimal Power Flow Problems**  
+    **L. Zhang** and B. Zhang.  
+    *e-Energy '22: Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022.  
+    🏆 **Best Paper Finalist**  
+    *Develops a Lagrangian-based warm-start method to improve solution quality in AC-OPF.*
+
+*   **A Convex Neural Network Solver for DCOPF with Generalization Guarantees**  
+    **L. Zhang**, Y. Chen, and B. Zhang.  
+    *IEEE Transactions on Control of Networked Systems*, 2021.  
+    *Leverages duality and KKT conditions to guarantee linear constraint satisfaction in neural solvers.*
+
 My vision is to build reliable AI-driven decision-making for safety-critical systems. As hyperscale AI data centers become coupled with the grid, I am particularly interested in modeling these dynamic systems to develop robust, adaptive operation methods.
