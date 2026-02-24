@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zhang Ling"
+title: "Ling Zhang"
 excerpt: #"Senior Researcher at Microsoft Research Asia"
 author_profile: true
 redirect_from: 
