@@ -58,13 +58,19 @@ classes: wide
   }
 </style>
 
-<div class="profile-container">
+<div style="display: flex; align-items: center; margin-bottom: 25px;">
+  <!-- Profile Photo (100px) -->
   <img src="/images/profile.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px; object-fit: cover; border: 1px solid #eee;">
   
-  <div class="profile-text">
-    <h2 class="profile-name">Ling Zhang</h2>
+  <!-- Text Container (Matched to 100px height) -->
+  <div style="display: flex; flex-direction: column; justify-content: center; height: 100px; line-height: 1.2;">
     
-    <div class="profile-title">
+    <!-- Name (Using your requested style, set to font-weight: normal) -->
+    <h2 class="adaptive-text" style="margin: 0; padding: 0; border: none; font-size: 1.5em; font-weight: bold;">
+      Ling Zhang
+    </h2>
+    
+    <div class="profile-desc" style="font-size: 1.0em; font-weight: normal;">
       Senior Researcher at Microsoft Research Asia
     </div>
 
