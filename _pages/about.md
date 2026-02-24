@@ -60,12 +60,12 @@ classes: wide
 
     <!-- Contact Links & CV Button -->
     <div style="font-size: 0.85em;">
-      <a href="mailto:your-email@microsoft.com" style="margin-right: 12px; color: var(--profile-link); text-decoration: none;">
+      <a href="mailto:zhangling@microsoft.com" style="margin-right: 12px; color: var(--profile-link); text-decoration: none;">
         <i class="fas fa-fw fa-envelope"></i> Email
       </a>
-      <a href="https://scholar.google.com" style="margin-right: 12px; color: var(--profile-link); text-decoration: none;">
-        <i class="fas fa-fw fa-graduation-cap"></i> Scholar
-      </a>
+     <a href="https://scholar.google.com/citations?user=JzRpUcMAAAAJ" style="margin-right: 12px; color: var(--profile-link); text-decoration: none;">
+      <i class="fas fa-fw fa-graduation-cap"></i> Scholar
+    </a>
       <a href="/files/my_cv.pdf" class="btn btn--info" style="margin: 0; padding: 2px 8px; font-size: 0.8em; border-radius: 4px;">
         Download CV
       </a>
