@@ -101,29 +101,26 @@ My vision is to build reliable AI-driven decision-making for safety-critical sys
 ### Large Language Models & Combinatorial Optimization
 *   **Holdout-Loss-Based Data Selection for LLM Finetuning via In-Context Learning**  
     **L. Zhang**, X. Yang, J. Yu, P. Cheonyoung, M. Lee, L. Song, and J. Bian.  
-    *International Conference on Learning Representations (ICLR)*, 2026. (To appear)  
-    > Explores principled data curation strategies for improving LLM alignment.
+    *ICLR*, 2026. (**To Appear**)  
+    > Proposes a principled data selection strategy based on holdout loss to improve LLM alignment and finetuning.
 
 *   **HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges**  
     X. Yang, **L. Zhang**, H. Qian, L. Song, and J. Bian.  
-    *arXiv preprint: 2506.15196*, 2025.  
-    <br><small>Uses LLMs to generate and evolve heuristic programs for large-scale combinatorial optimization.</small>
+    *arXiv preprint*, 2025.  
+    > Employs LLMs to automatically generate and evolve heuristic programs for large-scale combinatorial optimization.
 
 ### Learning-based Optimization for Power Systems
 *   **An Efficient Learning‑based Solver for Two‑stage DC Optimal Power Flow with Feasibility Guarantees**  
     **L. Zhang**, D. Tabas, and B. Zhang.  
-    *arXiv preprint: 2304.01409*, 2023.  
-    *Embeds gauge mapping within neural solvers to provide feasibility guarantees for two-stage stochastic LP.*
+    *arXiv preprint*, 2023.  
+    > Embeds gauge mapping within neural solvers to provide feasibility guarantees for two-stage stochastic LP.
 
 *   **An Iterative Approach to Improving Solution Quality for AC Optimal Power Flow Problems**  
     **L. Zhang** and B. Zhang.  
-    *e-Energy '22: Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022.  
-    🏆 **Best Paper Finalist**  
-    *Develops a Lagrangian-based warm-start method to improve solution quality in AC-OPF.*
+    *ACM e-Energy*, 2022. — 🏆 **Best Paper Finalist**  
+    > Develops a Lagrangian-based warm-start method to improve solution quality in non-convex AC-OPF.
 
 *   **A Convex Neural Network Solver for DCOPF with Generalization Guarantees**  
     **L. Zhang**, Y. Chen, and B. Zhang.  
-    *IEEE Transactions on Control of Networked Systems*, 2021.  
-    *Leverages duality and KKT conditions to guarantee linear constraint satisfaction in neural solvers.*
-
-
+    *IEEE TCNS*, 2021.  
+    > Leverages duality and KKT conditions to guarantee linear constraint satisfaction in neural solvers.
