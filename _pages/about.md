@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 permalink: /
 title: "Ling Zhang"
 excerpt: "Senior Researcher at Microsoft Research Asia"
@@ -10,18 +10,34 @@ redirect_from:
   - /about.html
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <!-- 1. Make sure your photo is in the /images/ folder and named profile.png -->
-  <img src="/images/profile.png" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 25px; object-fit: cover;">
+<style>
+  /* This hides the default "Ling Zhang" title that the template adds automatically */
+  .page__title { display: none; }
+</style>
+
+<div style="display: flex; align-items: center; margin-top: 0; margin-bottom: 30px;">
+  <!-- 1. Smaller photo (80px instead of 120px) -->
+  <img src="/images/profile.png" style="width: 80px; height: 80px; border-radius: 50%; margin-right: 20px; object-fit: cover;">
   
   <div>
-    <h1 style="margin: 0; padding: 0; border: none; font-size: 2.5em;">Ling Zhang</h1>
-    <p style="margin: 5px 0; color: #444; font-size: 1.2em; font-weight: 500;">Senior Researcher at Microsoft Research Asia</p>
+    <!-- 2. Smaller Name (using h2 instead of h1) -->
+    <h2 style="margin: 0; padding: 0; border: none; font-size: 1.6em;">Ling Zhang</h2>
     
-    <p style="margin: 10px 0 0 0; font-size: 1em;">
-      <a href="mailto:your-email@microsoft.com" style="margin-right: 15px;"><i class="fas fa-fw fa-envelope"></i> Email</a>
-      <a href="https://scholar.google.com/your-profile" style="margin-right: 15px;"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-      <a href="/files/my_cv.pdf" class="btn btn--info" style="margin: 0; padding: 5px 15px;">Download CV</a>
+    <!-- 3. Brief Description -->
+    <p style="margin: 2px 0; color: #444; font-size: 1.1em; font-weight: 400;">
+      Senior Researcher at Microsoft Research Asia
+    </p>
+    
+    <!-- 4. Sub-description / Research focus -->
+    <p style="margin: 0; color: #666; font-size: 0.95em; font-style: italic;">
+      Working on Deep Learning, Machine Learning, and AI for Science.
+    </p>
+
+    <!-- 5. Links and Button -->
+    <p style="margin: 8px 0 0 0; font-size: 0.9em;">
+      <a href="mailto:your-email@microsoft.com" style="margin-right: 12px;"><i class="fas fa-fw fa-envelope"></i> Email</a>
+      <a href="https://scholar.google.com" style="margin-right: 12px;"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="/files/my_cv.pdf" class="btn btn--info" style="margin: 0; padding: 3px 10px; font-size: 0.8em;">Download CV</a>
     </p>
   </div>
 </div>
@@ -29,12 +45,11 @@ redirect_from:
 <hr>
 
 # About Me
-Write your professional biography here. For example: I am a Senior Researcher at Microsoft Research Asia working on...
+Write your bio here...
 
 # Research Interests
-* **Artificial Intelligence:** Deep learning, neural networks.
-* **Data Science:** Large scale data analysis.
-* **Machine Learning:** Optimization and reinforcement learning.
+* **Artificial Intelligence**
+* **Machine Learning**
 
 # Industry and Application
-Describe your work in the industry here. Focus on the impact of your research and specific projects you've led at Microsoft or elsewhere.
+Description of your work...
