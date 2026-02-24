@@ -25,6 +25,7 @@ main:
     
   - title: "CV"
     url: /files/my_cv.pdf
+    target: _blank
     
   # - title: "CV"
   #   url: /cv-json/
