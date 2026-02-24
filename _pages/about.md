@@ -1,51 +1,55 @@
 ---
 layout: single
 permalink: /
-title: "Ling Zhang"
-excerpt: "Senior Researcher at Microsoft Research Asia"
+title: 
 author_profile: false
 classes: wide
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 <style>
-  /* This hides the default "Ling Zhang" title that the template adds automatically */
-  .page__title { display: none; }
+  /* Hides the automatic large title at the very top */
+  .page__title { display: none !important; }
+  
+  /* Ensures the description text is visible and black */
+  .profile-desc {
+    color: #333333 !important;
+    display: block !important;
+    margin-top: 5px !important;
+  }
 </style>
 
-<div style="display: flex; align-items: center; margin-top: 0; margin-bottom: 30px;">
-  <!-- 1. Smaller photo (80px instead of 120px) -->
-  <img src="/images/profile.png" style="width: 80px; height: 80px; border-radius: 50%; margin-right: 20px; object-fit: cover;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <!-- Profile Photo -->
+  <img src="/images/profile.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px; object-fit: cover; border: 1px solid #eee;">
   
   <div>
-    <!-- 2. Smaller Name (using h2 instead of h1) -->
-    <h2 style="margin: 0; padding: 0; border: none; font-size: 1.6em;">Ling Zhang</h2>
+    <!-- Name -->
+    <h2 style="margin: 0; padding: 0; border: none; font-size: 1.7em; color: black;">Ling Zhang</h2>
     
-    <!-- 3. Brief Description -->
-    <p style="margin: 2px 0; color: #444; font-size: 1.1em; font-weight: 400;">
+    <!-- Brief Description (Job Title) -->
+    <div class="profile-desc" style="font-size: 1.1em; font-weight: bold;">
       Senior Researcher at Microsoft Research Asia
-    </p>
-    
-    <!-- 4. Sub-description / Research focus -->
-    <p style="margin: 0; color: #666; font-size: 0.95em; font-style: italic;">
-      Working on Deep Learning, Machine Learning, and AI for Science.
-    </p>
+    </div>
 
-    <!-- 5. Links and Button -->
-    <p style="margin: 8px 0 0 0; font-size: 0.9em;">
-      <a href="mailto:your-email@microsoft.com" style="margin-right: 12px;"><i class="fas fa-fw fa-envelope"></i> Email</a>
-      <a href="https://scholar.google.com" style="margin-right: 12px;"><i class="ai ai-google-scholar"></i> Scholar</a>
-      <a href="/files/my_cv.pdf" class="btn btn--info" style="margin: 0; padding: 3px 10px; font-size: 0.8em;">Download CV</a>
-    </p>
+    <!-- Contact Links -->
+    <div style="margin-top: 10px;">
+      <a href="mailto:your-email@microsoft.com" style="margin-right: 15px; text-decoration: none;">
+        <i class="fas fa-fw fa-envelope"></i> Email
+      </a>
+      <a href="https://scholar.google.com" style="margin-right: 15px; text-decoration: none;">
+        <i class="fas fa-fw fa-graduation-cap"></i> Scholar
+      </a>
+      <a href="/files/my_cv.pdf" class="btn btn--info" style="margin: 0; padding: 4px 10px; font-size: 0.8em; border-radius: 4px;">
+        Download CV
+      </a>
+    </div>
   </div>
 </div>
 
 <hr>
 
 # About Me
-Write your bio here...
+Write your professional biography here.
 
 # Research Interests
 * **Artificial Intelligence**
