@@ -79,7 +79,7 @@ classes: wide
         <i class="fas fa-fw fa-envelope"></i> Email
       </a>
       <a href="https://scholar.google.com/citations?user=JzRpUcMAAAAJ" target="_blank" rel="noopener noreferrer">
-        <i class="fas fa-fw fa-graduation-cap"></i> Scholar
+        <i class="fas fa-fw fa-graduation-cap"></i> Google Scholar
       </a>
       <a href="/files/my_cv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--info" style="margin: 0; padding: 2px 8px; font-size: 0.8em; border-radius: 4px; color: white !important;">
         Download CV
@@ -102,12 +102,12 @@ My vision is to build reliable AI-driven decision-making for safety-critical sys
 *   **Holdout-Loss-Based Data Selection for LLM Finetuning via In-Context Learning**  
     **L. Zhang**, X. Yang, J. Yu, P. Cheonyoung, M. Lee, L. Song, and J. Bian.  
     *International Conference on Learning Representations (ICLR)*, 2026. (To appear)  
-    *Explores principled data curation strategies for improving LLM alignment.*
+    > Explores principled data curation strategies for improving LLM alignment.
 
 *   **HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges**  
     X. Yang, **L. Zhang**, H. Qian, L. Song, and J. Bian.  
     *arXiv preprint: 2506.15196*, 2025.  
-    *Uses LLMs to generate and evolve heuristic programs for large-scale combinatorial optimization.*
+    <br><small>Uses LLMs to generate and evolve heuristic programs for large-scale combinatorial optimization.</small>
 
 ### Learning-based Optimization for Power Systems
 *   **An Efficient Learning‑based Solver for Two‑stage DC Optimal Power Flow with Feasibility Guarantees**  
