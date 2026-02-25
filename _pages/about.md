@@ -94,7 +94,7 @@ classes: wide
 I am currently a Senior Researcher at Microsoft Research Asia. I received my PhD in 2024 from the University of Washington, advised by [Prof. Baosen Zhang](https://zhangbaosen.github.io/).
 My research focuses on learning-based optimization for power system operations under high renewable penetration and uncertainty.  I develop methods that guarantee hard constraint satisfaction by embedding optimization structures directly into the learning process.  At MSRA, I also explore applying LLMs to large-scale combinatorial optimization (e.g., logistics) and improving their alignment with downstream tasks.
 
-My vision is to build reliable AI-driven decision-making for safety-critical systems. As hyperscale AI data centers become coupled with the grid, I am particularly interested in modeling these dynamic systems to develop robust, adaptive operation methods.
+My broader vision lies at the intersection of AI and safety-critical systems such as power grids. I aim to build reliable AI systems for decision-making under hard physical constraints and uncertainty. More recently, I have been investigating the interaction between hyperscale AI data centers and power grids, examining both how data centers can serve as strategic grid assets and how they can scale without compromising grid stability or public welfare.
 
 ## Selected Publications
 
